@@ -275,6 +275,23 @@ header {
     gap: 82px;
     padding-bottom: 0;
   }
+
+  /* PORTFOLIO */
+  .portfolio > .container > .section__header {
+    padding: 81px 0 65px;
+  }
+
+  .portfolio > .container > img {
+    width: 316px;
+  }
+
+  .portfolio > .container > a > p {
+    padding-bottom: 78px;
+  }
+
+  .portfolio > .container a:last-child > p {
+    padding-bottom: 81px;
+  }
 }
 
 /* FONTS */
