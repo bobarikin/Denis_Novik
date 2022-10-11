@@ -292,6 +292,26 @@ header {
   .portfolio > .container a:last-child > p {
     padding-bottom: 81px;
   }
+
+  /* FOOTER */
+  .contacts > .section__header {
+    padding: 82px 0 27px;
+  }
+
+  .contacts__btn {
+    width: 316px;
+    margin-bottom: 48px;
+  }
+
+  .contacts__icons {
+    width: 316px;
+  }
+
+  .contacts__text {
+    margin: 0 auto;
+    padding: 49px 0 90px;
+    width: 316px;
+  }
 }
 
 /* FONTS */
