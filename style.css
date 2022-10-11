@@ -209,14 +209,15 @@ header {
 }
 
 /* MEDIA */
-@media (max-width: 375px) {
+
+@media (max-width: 425px) {
   /* HEADER */
   header {
     padding-bottom: 83px;
   }
 
   .container {
-    width: 316.5px;
+    width: 80%;
   }
 
   nav {
@@ -310,6 +311,12 @@ header {
   .contacts__text {
     margin: 0 auto;
     padding: 49px 0 90px;
+    width: 316px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
     width: 316px;
   }
 }
