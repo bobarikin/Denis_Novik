@@ -8,9 +8,9 @@ html {
 }
 
 body {
-  font-family: "Gilroy-Bold", sans-serif;
+  font-family: 'Gilroy-Bold', sans-serif;
   color: #070707;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-size: 18px;
 }
 
@@ -71,11 +71,11 @@ header {
 
 /* ABOUT ME */
 .about {
-  background-color: #F6F6F6;;
+  background-color: #f6f6f6;
 }
 
 .text {
-  font-family: "Gilroy-medium", sans-serif;
+  font-family: 'Gilroy-medium', sans-serif;
   width: 485px;
   text-align: center;
   margin: 0 auto;
@@ -130,7 +130,7 @@ header {
 
 /* PORTFOLIO */
 .portfolio {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 
 .portfolio > .container > .section__header {
@@ -161,10 +161,10 @@ header {
 .contacts__btn {
   display: block;
   margin: 30px auto 86px;
-  font-family: "Gilroy-bold", sans-serif;
+  font-family: 'Gilroy-bold', sans-serif;
   font-size: 18px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #070707;
   padding: 12px 30px 12px 28px;
   border-radius: 25px;
@@ -201,24 +201,61 @@ header {
 }
 
 .contacts__text {
-  font-family: "Gilroy-medium", sans-serif;
+  font-family: 'Gilroy-medium', sans-serif;
   font-size: 14px;
   color: #828282;
   text-align: center;
   padding: 46px 0 123px;
 }
 
+/* MEDIA */
+@media (max-width: 375px) {
+  /* HEADER */
+  header {
+    padding-bottom: 83px;
+  }
+
+  .container {
+    width: 316.5px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .header {
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+  }
+
+  .header__logo {
+    padding-top: 60px;
+  }
+
+  .header__info {
+    padding: 23px 0 37px;
+  }
+
+  .burger {
+    display: block !important;
+    position: absolute;
+    right: 0;
+    top: 68px;
+  }
+}
+
 /* FONTS */
 @font-face {
-  font-family: "Gilroy-Bold";
-  src: url("./fonts/Gilroy-Bold.ttf") format("ttf"),
-    url("./fonts/Gilroy-Bold.woff") format("woff"),
-    url("./fonts/Gilroy-Bold.woff2") format("woff2");
+  font-family: 'Gilroy-Bold';
+  src: url('./fonts/Gilroy-Bold.ttf') format('ttf'),
+    url('./fonts/Gilroy-Bold.woff') format('woff'),
+    url('./fonts/Gilroy-Bold.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: "Gilroy-Medium";
-  src: url("./fonts/Gilroy-Medium.ttf") format("ttf"),
-    url("./fonts/Gilroy-Medium.woff") format("woff"),
-    url("./fonts/Gilroy-Medium.woff2") format("woff2");
+  font-family: 'Gilroy-Medium';
+  src: url('./fonts/Gilroy-Medium.ttf') format('ttf'),
+    url('./fonts/Gilroy-Medium.woff') format('woff'),
+    url('./fonts/Gilroy-Medium.woff2') format('woff2');
 }
