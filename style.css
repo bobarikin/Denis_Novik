@@ -260,6 +260,21 @@ header {
   .about__text:last-child {
     padding-bottom: 76px;
   }
+
+  /* SKILLS */
+  .skills {
+    padding: 83px 0 99px;
+  }
+
+  .skills__text {
+    padding: 50px 0 71px;
+  }
+
+  .skills__soft {
+    flex-direction: column;
+    gap: 82px;
+    padding-bottom: 0;
+  }
 }
 
 /* FONTS */
