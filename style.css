@@ -210,6 +210,51 @@ header {
 
 /* MEDIA */
 
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .header {
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+  }
+
+  .header__logo {
+    padding-top: 60px;
+  }
+
+  .header__info {
+    padding: 23px 0 37px;
+  }
+
+  .burger {
+    display: block !important;
+    position: absolute;
+    right: 0;
+    top: 68px;
+  }
+
+  picture > img {
+    width: 100%;
+  }
+
+  .skills__soft {
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+  }
+
+  .portfolio > .container > img {
+    width: 100%;
+  }
+}
+
 @media (max-width: 425px) {
   /* HEADER */
   header {
