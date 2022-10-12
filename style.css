@@ -210,7 +210,7 @@ header {
 
 /* MEDIA */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .container {
     width: 80%;
   }
@@ -251,6 +251,18 @@ header {
   }
 
   .portfolio > .container > img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 829px) and (max-width: 1023px) {
+  .skills__soft {
+    gap: 160px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 618px) {
+  .text {
     width: 100%;
   }
 }
